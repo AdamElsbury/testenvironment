@@ -1024,7 +1024,7 @@ a.uk-link-reset:hover,
  */
 .uk-icon {
   /* 1 */
-  margin: 0;
+  /* margin: 0; */
   /* 2 */
   border: none;
   /* 3 */
@@ -1909,7 +1909,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #1e87f0;
+  background-color: #3D315B;
   color: #fff;
   border: 1px solid transparent;
 }
