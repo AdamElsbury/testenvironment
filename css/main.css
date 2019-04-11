@@ -1,4 +1,8 @@
+/* Container */
 
+.container {
+  padding: 3%;
+}
 /* Padding */
 
 .pad-left-right-140 {
@@ -28,6 +32,17 @@
 
 .white-text-custom {
   color: #F3F3F3;
+}
+
+.purple-card-header {
+  font-size: 1.1em;
+  color: #3D315B;
+  font-weight: bold;
+}
+
+.account-total {
+  font-size: 2.850em;
+  color: #182119;
 }
 
 /* Borders */
