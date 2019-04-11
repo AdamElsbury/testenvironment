@@ -1,0 +1,33 @@
+
+/* Navigation bar */
+
+.navbar-custom {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+/* Hero */
+
+.hero {
+  height: 230px;
+  background-color: #246A73;
+}
+/* Bg Colors */
+
+.background-black-custom {
+  background-color: #071108;
+}
+
+/* Text */
+
+.white-text-custom {
+  color: #F3F3F3;
+}
+
+/* Borders */
+/*
+.border-grey-custom {
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
+}
+/*
