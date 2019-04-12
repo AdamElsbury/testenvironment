@@ -3,6 +3,24 @@
 .container {
   padding: 3%;
 }
+
+/* Element sizing */
+
+.block-full-width {
+  display: block;
+  width: 100%;
+  background-color: #3D315B;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.max-height-205 {
+  max-height: 205px;
+}
+
+.vert-align {
+  vertical-align: middle
+}
 /* Padding */
 
 .pad-left-right-140 {
@@ -10,10 +28,27 @@
   padding-right: 5%;
 }
 
+.pad-left-5 {
+  padding-left: 5% !important;
+}
+
+.pad-left-40 {
+  padding-left: 40px;
+}
+
 /* Margins */
 
 .icon-margin-custom {
   margin-left: 5px;
+}
+
+.float-right {
+  float: right;
+  margin-right: 10px;
+}
+
+.navleft span {
+  float:right;
 }
 /* Hero */
 
@@ -28,10 +63,26 @@
   background-color: #071108;
 }
 
+.background-purple-custom {
+  background-color: #362B50;
+}
+
+.background-grey-custom {
+  background-color: #F3F3F3;
+}
+
+.border-left-green {
+  border-left: 6px solid #246A73;
+}
+
 /* Text */
 
 .white-text-custom {
   color: #F3F3F3;
+}
+
+.black-text-custom {
+  color: #182119;
 }
 
 .purple-card-header {
@@ -45,13 +96,10 @@
   color: #182119;
 }
 
-/* Borders */
-/*
-.border-grey-custom {
-  border-left: 1px solid #707070;
-  border-right: 1px solid #707070;
+.left-nav-small {
+  font-size: 0.9em;
+  font-weight: bold;
 }
-/*
 
 /* Cards */
 
@@ -59,3 +107,30 @@
   background-color: #F3F3F3;
   border-bottom: 6px solid #246A73;
 }
+
+.custom-card-grey img {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* Anchors */
+
+.inline-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.border-bottom-half:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 4px solid #246A73; /* This creates the border. Replace black with whatever color you want. */
+}
+
+/* SVG */
