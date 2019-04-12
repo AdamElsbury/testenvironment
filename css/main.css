@@ -4,6 +4,11 @@
   padding: 3%;
 }
 
+.container2 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 /* Element sizing */
 
 .block-full-width {
@@ -23,6 +28,10 @@
 }
 /* Padding */
 
+.pad-left-right-10 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .pad-left-right-140 {
   padding-left: 5%;
   padding-right: 5%;
@@ -75,6 +84,10 @@
   border-left: 6px solid #246A73;
 }
 
+.background-purple-custom {
+  background-color: #66389E;
+}
+
 /* Text */
 
 .white-text-custom {
@@ -101,6 +114,13 @@
   font-weight: bold;
 }
 
+.spacing-1 {
+  letter-spacing: 1px;
+}
+
+.text-opacity-95 {
+  opacity: 0.95;
+}
 /* Cards */
 
 .custom-card-grey {
@@ -134,3 +154,32 @@
 }
 
 /* SVG */
+
+
+/* ============================================================= */
+
+/* Page 2 specific */
+
+.nav {
+  height: 400px;
+  background-color: #66389E;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 100px;
+}
+
+/* Buttons */
+
+.button-pink {
+  border-radius: 52px;
+  background-color: #DB1949;
+  color: #ECECEC !important;
+}
+
+.button-white-nofill {
+  border-radius: 52px;
+  background-color: transparent;
+  border: 2px solid #ECECEC !important;
+  color: #ECECEC !important;
+  margin-left: 20px !important;
+}
