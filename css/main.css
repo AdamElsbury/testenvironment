@@ -4,11 +4,6 @@
   padding: 3%;
 }
 
-.container2 {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 /* Element sizing */
 
 .block-full-width {
@@ -175,6 +170,20 @@
   padding-top: 100px;
 }
 
+.section2 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.section3 {
+  background-color: #F3F3F3;
+  padding: 5% 10% 5% 10%;
+}
+
+.section4 {
+  background-color: #66389E;
+  padding: 5% 10% 5% 10%;
+}
 /* Buttons */
 
 .button-pink {
@@ -195,4 +204,12 @@
 
 .purple-link-text {
   color: #66389E;
+}
+
+/* Cards */
+
+.white-card {
+  box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
+  border-radius: 22px;
+  padding: 10%;
 }
