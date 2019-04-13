@@ -5,8 +5,8 @@
 }
 
 .container2 {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* Element sizing */
@@ -121,6 +121,11 @@
 .text-opacity-95 {
   opacity: 0.95;
 }
+
+.font-16 {
+  height: 0.8em;
+  width: 0.8em;
+}
 /* Cards */
 
 .custom-card-grey {
@@ -155,7 +160,9 @@
 
 /* SVG */
 
-
+.mouse img {
+  height: 35px;
+}
 /* ============================================================= */
 
 /* Page 2 specific */
@@ -182,4 +189,10 @@
   border: 2px solid #ECECEC !important;
   color: #ECECEC !important;
   margin-left: 20px !important;
+}
+
+/* Text */
+
+.purple-link-text {
+  color: #66389E;
 }
