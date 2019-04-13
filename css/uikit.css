@@ -3591,7 +3591,8 @@ select.uk-form-width-xsmall {
   padding-left: 6px;
   padding-right: 6px;
   background: transparent;
-  border: 1px solid #e5e5e5;
+  border: 2px solid #FFF;
+  border-radius: 52px;
 }
 /* Focus */
 .uk-search-default .uk-search-input:focus {

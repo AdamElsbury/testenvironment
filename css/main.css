@@ -4,6 +4,9 @@
   padding: 3%;
 }
 
+/* Positional */
+
+
 /* Element sizing */
 
 .block-full-width {
@@ -40,6 +43,9 @@
   padding-left: 40px;
 }
 
+.padding-30 {
+  padding: 25%;
+}
 /* Margins */
 
 .icon-margin-custom {
@@ -73,6 +79,14 @@
 
 .background-grey-custom {
   background-color: #F3F3F3;
+}
+
+.background-grey2-custom {
+  background-color: #2D2D2D !important;
+}
+
+.background-grey3-custom {
+  background-color: #525050;
 }
 
 .border-left-green {
@@ -231,4 +245,77 @@
   box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
   border-radius: 22px;
   padding: 7%;
+}
+
+/* ===================================================== */
+
+/* Page 3 */
+
+/* Nav */
+
+.text-transform-none {
+  text-transform: none !important;
+}
+
+/* Header yellow div */
+
+.header {
+  background-color: #FEF038;
+}
+
+/* Buttons */
+
+.button-black-nofill {
+  border-radius: 52px;
+  background-color: transparent;
+  border: 2px solid #333 !important;
+  color: #333 !important;
+  margin-left: 20px !important;
+}
+
+.button-black-nofill-no-margin {
+  border-radius: 52px;
+  background-color: transparent;
+  border: 2px solid #333 !important;
+  color: #333 !important;
+}
+
+/* Cards */
+
+.white-card-3 {
+  box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
+  border-radius: 22px;
+}
+
+.white-card-3 img {
+  border-radius: 22px;
+}
+
+.shop-card-1 {
+  background-image: url("../assets/heather-ford-528919-unsplash.png");
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.shop-card-2 {
+  background-image: url("../assets/ian-dooley-347968-unsplash.png");
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.shop-card-3 {
+  background-image: url("../assets/bogdan-glisik-1165508-unsplash.png");
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.shop-card-4 {
+  background-image: url("../assets/oleg-magni-1370187-unsplash.png");
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.border-radius-22 {
+  border-radius: 22px 22px 0px 0px;
 }
