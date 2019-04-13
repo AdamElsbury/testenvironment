@@ -83,6 +83,10 @@
   background-color: #66389E;
 }
 
+.background-white-custom {
+  background-color: #FFF
+}
+
 /* Text */
 
 .white-text-custom {
@@ -97,6 +101,10 @@
   font-size: 1.1em;
   color: #3D315B;
   font-weight: bold;
+}
+
+.pink-text-custom {
+  color: #DB1949;
 }
 
 .account-total {
@@ -121,6 +129,11 @@
   height: 0.8em;
   width: 0.8em;
 }
+
+.text-08 {
+  font-size: 0.8em;
+}
+
 /* Cards */
 
 .custom-card-grey {
@@ -212,4 +225,10 @@
   box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
   border-radius: 22px;
   padding: 10%;
+}
+
+.white-card-2 {
+  box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
+  border-radius: 22px;
+  padding: 7%;
 }
