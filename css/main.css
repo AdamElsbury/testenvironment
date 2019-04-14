@@ -263,6 +263,21 @@
   background-color: #FEF038;
 }
 
+/* Sections */
+
+.section2-3 {
+  background-color: #FEF038;
+}
+
+/* Img */
+
+.image-boots {
+  background-image: url("../assets/brunel-johnson-1169536-unsplash.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 150px;
+}
+
 /* Buttons */
 
 .button-black-nofill {
@@ -278,6 +293,12 @@
   background-color: transparent;
   border: 2px solid #333 !important;
   color: #333 !important;
+}
+
+.button-black {
+  background-color: #182119;
+  color: #FEF038 !important;
+  min-width: 200px;
 }
 
 /* Cards */
