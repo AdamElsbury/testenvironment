@@ -340,3 +340,44 @@
 .border-radius-22 {
   border-radius: 22px 22px 0px 0px;
 }
+
+/* =================================== */
+
+/* Onboarding */
+
+.section-onboarding {
+  padding: 20%;
+}
+
+.left-div-purple {
+  background-color: #66389E;
+}
+
+.right-div-black {
+  background-color: #1D2D44;
+}
+
+.border-bottom-half2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 15%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 4px solid #65A2D9; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.border-bottom-half3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 40%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 4px solid #65A2D9; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+.section-onboarding img {
+  max-width: 25%;
+}
+
+.section-onboarding button {
+  min-width: 150px;
+}
