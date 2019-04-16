@@ -13,7 +13,7 @@
 <body>
 
 
-    <nav class="uk-navbar-container pad-left-right-10 background-black-custom background-purple-custom" uk-navbar>
+    <nav class="uk-navbar-container pad-left-right-10 background-black-custom background-purple-custom2" uk-navbar>
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
             <li><a href="#" class=" border-grey-custom uk-text-bold spacing-1 black-text-custom">SOCIALDASH</a></li>
@@ -159,7 +159,7 @@ for our newsletter and we will keep you up to date with any news.
             <div class="white-card background-white-custom">
               <p class="purple-link-text uk-text-bold">SIGN UP FOR NEWSLETTER</p>
               <img src="../assets/boy.svg" alt="">
-              <button class="uk-button button-pink uk-margin-top">DOWNLOAD APP</button>
+              <a href="test3.html"><button class="uk-button button-pink uk-margin-top min-width-100">SIGN UP</button></a>
             </div>
           </div>
           <div class="uk-width-1-3@m"></div>
@@ -167,12 +167,28 @@ for our newsletter and we will keep you up to date with any news.
             <div class="white-card background-white-custom">
               <p class="purple-link-text uk-text-bold">SIGN UP FOR NEWSLETTER</p>
               <img src="../assets/newsletter.svg" alt="">
-              <button class="uk-button button-pink uk-margin-top">DOWNLOAD APP</button>
+              <a href="test3.html"><button class="uk-button button-pink uk-margin-top min-width-100">SIGN UP</button></a>
             </div>
           </div>
         </div>
 
       </section>
+      <div class="uk-card-default uk-card-body hint" style="z-index: 980;" uk-sticky="top: #offset">
+        <!-- This is a button toggling the modal -->
+        <button class="uk-button button-pink-square uk-margin-small-right" type="button" uk-toggle="target: #modal-example">Task</button>
+
+        <!-- This is the modal -->
+        <div id="modal-example" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <h2 class="uk-modal-title">Task 1: Sign up for newsletter</h2>
+                <p>Welcome to SocialDash. SocialDash is a new mobile application that allows you to control all of your social media accounts in one place. You are interested in the product but remain unsure about whether to download it.</p>
+                <p class="uk-text-bold">Please sign up for the newsletter.</p>
+                <p class="uk-text-right">
+                    <button class="uk-button uk-button-primary uk-modal-close" type="button">Close</button>
+                </p>
+            </div>
+        </div>
+      </div>
 
 
 </div> <!-- Container 2 close -->

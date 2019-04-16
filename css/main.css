@@ -4,6 +4,19 @@
   padding: 3%;
 }
 
+
+/* Hint modal */
+
+.hint {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    max-width: 200px;
+    opacity: 0.85;
+    background-color: transparent !important;
+    text-align: center;
+    box-shadow: none !important;
+}
 /* Positional */
 
 
@@ -23,6 +36,10 @@
 
 .vert-align {
   vertical-align: middle
+}
+
+.min-width-100 {
+  min-width: 100%;
 }
 /* Padding */
 
@@ -93,7 +110,7 @@
   border-left: 6px solid #246A73;
 }
 
-.background-purple-custom {
+.background-purple-custom2 {
   background-color: #66389E;
 }
 
@@ -215,6 +232,11 @@
 
 .button-pink {
   border-radius: 52px;
+  background-color: #DB1949;
+  color: #ECECEC !important;
+}
+
+.button-pink-square {
   background-color: #DB1949;
   color: #ECECEC !important;
 }

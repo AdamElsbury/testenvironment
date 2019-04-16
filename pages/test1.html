@@ -18,6 +18,9 @@
             <li><a href="#" class="white-text-custom border-grey-custom">Developer zone</a></li>
         </ul>
     </div>
+    <div class="uk-navbar-center">
+
+    </div>
     <div class="uk-navbar-right">
       <ul class="uk-navbar-nav">
         <li><a href="#" class="white-text-custom border-grey-custom">Leave feedback</a></li>
@@ -140,15 +143,31 @@
         <div class="custom-card-grey uk-text-left uk-padding-small uk-text-center">
           <h4>Open new account</h4>
           <img src="../assets/test1house.png" alt="">
-          <button class="uk-button uk-button-primary uk-margin-small-top">LEARN MORE</button>
+          <a href="test2.html"><button class="uk-button uk-button-primary uk-margin-small-top">OPEN</button></a>
         </div>
         <div class="uk-width-3-5@m uk-padding"></div>
         <div class="custom-card-grey uk-text-left uk-padding-small uk-text-center">
           <h4>Open new account</h4>
           <img src="../assets/test1face.png" alt="Test image of face" uk-img>
-          <button class="uk-button uk-button-primary uk-margin-small-top">LEARN MORE</button>
+          <a href="test2.html"><button class="uk-button uk-button-primary uk-margin-small-top">OPEN</button></a>
         </div>
 
+      </div>
+      <div class="uk-card-default uk-card-body hint" style="z-index: 980;" uk-sticky="top: #offset">
+        <!-- This is a button toggling the modal -->
+        <button class="uk-button button-pink-square uk-margin-small-right" type="button" uk-toggle="target: #modal-example">Task</button>
+
+        <!-- This is the modal -->
+        <div id="modal-example" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <h2 class="uk-modal-title">Task 1: Open new account</h2>
+                <p>Welcome to SolentBank. This is a personal banking website. You have just logged into your account and you are seeing the home page.</p>
+                <p>Please open up a new account.</p>
+                <p class="uk-text-right">
+                    <button class="uk-button uk-button-primary uk-modal-close" type="button">Close</button>
+                </p>
+            </div>
+        </div>
       </div>
 
   </div> <!-- container -->
