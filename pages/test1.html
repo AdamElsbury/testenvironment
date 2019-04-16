@@ -143,7 +143,9 @@
         <div class="custom-card-grey uk-text-left uk-padding-small uk-text-center">
           <h4>Open new account</h4>
           <img src="../assets/test1house.png" alt="">
-          <a href="test2.html"><button class="uk-button uk-button-primary uk-margin-small-top">OPEN</button></a>
+          <form method="post" action="test1service.php">
+            <a href="test2.html"><button type="submit" id="nonfacialcue" class="uk-button uk-button-primary uk-margin-small-top">OPEN</button></a>
+          </form>
         </div>
         <div class="uk-width-3-5@m uk-padding"></div>
         <div class="custom-card-grey uk-text-left uk-padding-small uk-text-center">
@@ -153,6 +155,8 @@
         </div>
 
       </div>
+
+
       <div class="uk-card-default uk-card-body hint" style="z-index: 980;" uk-sticky="top: #offset">
         <!-- This is a button toggling the modal -->
         <button class="uk-button button-pink-square uk-margin-small-right" type="button" uk-toggle="target: #modal-example">Task</button>
